@@ -1,0 +1,35 @@
+{
+  //add new tree(add root node)
+  {
+    "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "name": "root node"
+  },
+  //add new left node
+  {
+    "id": "f58e1030-bec3-4ad4-9137-8b0ee37fde97",
+    "name": "left node",
+    "parentNodeId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "side": 0
+  },
+  //add new right node
+  {
+    "id": "9cf9398d-b2ff-481b-905e-88be235a87a5",
+    "name": "right node",
+    "parentNodeId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "side": 1
+  },
+  //add second right node
+  {
+    "id": "b3030ecf-7181-44f5-8ac6-d95c78195e4c",
+    "name": "second right node",
+    "parentNodeId": "f58e1030-bec3-4ad4-9137-8b0ee37fde97",
+    "side": 1
+  },
+  //edit left node
+  {
+    "id": "f58e1030-bec3-4ad4-9137-8b0ee37fde97",
+    "name": "edited left node",
+    "parentNodeId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "side": 0
+  }
+}
